@@ -11,6 +11,8 @@ services:
   #   environment:
   #     REDIS_HOST: redis_database
   #     REDIS_PORT: "${REDIS_PORT}"
+  #   env_file:
+  #     - .env
 
   redis_database:
     container_name: redis_container
@@ -18,3 +20,9 @@ services:
     image: redis
     ports:
       - "${REDIS_PORT}:${REDIS_PORT}"
+    # environment:
+    #   REDIS_HOST: ${REDIS_HOST:-"127.0.0.1"}
+    #   REDIS_PORT: ${REDIS_PORT:-"6379"}
+    #   REDIS_DB: ${REDIS_DB:-"0"}
+    env_file:
+      - .env

@@ -2,7 +2,7 @@ import crypto from "crypto";
 import express from "express";
 import { createClient } from "redis";
 import dotenv from "dotenv";
-dotenv.config({ path: "./env.local" });
+dotenv.config({ path: "./.env" });
 // const { REDIS_HOST, REDIS_PORT, REDIS_DB, APP_PORT } = process.env;
 // console.log("REDIS_HOST:", REDIS_HOST, "\nREDIS_PORT:", REDIS_PORT, "\nREDIS_DB:", REDIS_DB, "\nAPP_PORT:", APP_PORT);
 
