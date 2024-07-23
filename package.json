@@ -1,0 +1,20 @@
+{
+  "name": "demo-redis-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker-compose:up": "docker-compose up",
+    "docker-compose:down": "docker-compose down",
+    "serve": "node index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "redis": "^4.6.15"
+  }
+}

@@ -1,0 +1,4 @@
+---
+# Common .gitignore
+---
+/node_modules/
