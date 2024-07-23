@@ -13,7 +13,7 @@ Destroy docker instance
 $ npm run docker-compose:down
 ```
 
-Run web applicatiojn
+Run web application
 ```
 $ npm run serve
 ```
